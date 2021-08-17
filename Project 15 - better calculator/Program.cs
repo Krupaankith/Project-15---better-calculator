@@ -33,26 +33,22 @@ namespace Project_15___better_calculator
             }
 
             else if (op == "^")
+            {
                 if (num2 != 3)
                 {
                     Console.WriteLine(num1 * num1);
                 }
                 else if (op == "^") num2 = 3;
-            {
-                Console.WriteLine(num1 * num1 * num1);
+                {
+                    Console.WriteLine(num1 * num1 * num1);
+                }
             }
 
-            else 
-
-
-
-            
+            else if (op == "^") num2 = 4; 
             {
                 Console.WriteLine(num1 * num1 * num1 * num1);
             }
                
-            
-
             Console.ReadLine();
         }
     }
